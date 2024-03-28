@@ -5,7 +5,7 @@ import java.util.UUID;
 import org.seasar.doma.ExternalDomain;
 import org.seasar.doma.jdbc.domain.DomainConverter;
 
-import mazeneko.mazewands.persistence.Identifier;
+import mazewands.persistence.Identifier;
 
 @ExternalDomain
 public class IdentifierConverter implements DomainConverter<Identifier<?>, Object> {

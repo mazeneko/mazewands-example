@@ -9,7 +9,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import mazeneko.mazewands.example.member.domain.Member;
 import mazeneko.mazewands.example.member.domain.MemberCommand;
-import mazeneko.mazewands.persistence.Identifier;
+import mazewands.persistence.Identifier;
 
 @Service
 @RequiredArgsConstructor

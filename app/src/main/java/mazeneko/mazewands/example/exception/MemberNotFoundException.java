@@ -3,7 +3,7 @@ package mazeneko.mazewands.example.exception;
 import java.util.List;
 
 import mazeneko.mazewands.example.member.domain.Member;
-import mazeneko.mazewands.persistence.Identifier;
+import mazewands.persistence.Identifier;
 
 public final class MemberNotFoundException extends CustomException {
   private static final ErrorCode ERROR_CODE = ErrorCode.MEMBER_NOT_FOUND;
