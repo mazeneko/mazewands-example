@@ -13,7 +13,7 @@ import mazeneko.mazewands.example.exception.MemberNotFoundException;
 import mazeneko.mazewands.example.member.domain.Member;
 import mazeneko.mazewands.example.member.domain.MemberQuery;
 import mazeneko.mazewands.example.member.usecase.MemberService;
-import mazeneko.mazewands.persistence.Identifier;
+import mazewands.persistence.Identifier;
 
 @RestController
 @RequestMapping("/api/members")

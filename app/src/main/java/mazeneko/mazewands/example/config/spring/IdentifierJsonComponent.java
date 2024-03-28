@@ -13,7 +13,7 @@ import com.fasterxml.jackson.databind.SerializerProvider;
 import com.fasterxml.jackson.databind.deser.std.StdDeserializer;
 import com.fasterxml.jackson.databind.ser.std.StdSerializer;
 
-import mazeneko.mazewands.persistence.Identifier;
+import mazewands.persistence.Identifier;
 
 @JsonComponent(type = Identifier.class)
 public class IdentifierJsonComponent {

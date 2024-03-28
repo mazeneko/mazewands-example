@@ -11,7 +11,7 @@ import org.seasar.doma.Transient;
 
 import lombok.NonNull;
 import mazeneko.mazewands.example.member.domain.Member;
-import mazeneko.mazewands.persistence.Identifier;
+import mazewands.persistence.Identifier;
 
 @Entity(immutable = true, metamodel = @Metamodel)
 @Table(name = "member")
